@@ -19,10 +19,6 @@ def TextToSpeech():
     speech.save('Sound.mp3')
     playsound('Sound.mp3')
 
-def Change():
-    lang =StringVar()
-    new = Entry(screen, width=70, textvariable=lang).place(x=250, y=185)
-    to_convert = new.get()
 
 #initialize window
 if __name__=="__main__":
@@ -38,7 +34,6 @@ if __name__=="__main__":
     submit_button = Button(screen,text='convert',font=20,bg='grey',command=TextToSpeech).place(x=250, y=270)
     reset_button = Button(screen,text='reset',font=20,bg='grey',command=Reset).place(x=350, y=270)
     exit_button = Button(screen,text='exit',font=20,bg='grey',command=Exit).place(x=430, y=270)
-    lang_button = Button(screen,text='change language',font=20,bg='grey',command=Change).place(x=500,y=270)
     screen.mainloop()
 
 
