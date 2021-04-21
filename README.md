@@ -1,8 +1,8 @@
-*This program convert text into voice with the click of a button!
+*This program converts text into voice with the click of a button!
 
-*The program developed using tkinter, gTTS,playsound libraries.	
+*The program was developed using tkinter, gTTS,playsound libraries.	
 
-*There are two options: the first is to enter sentence and it will be converted to voice. The second option is to enter name of file and the programm will open the file, read it and convert it to voice.
+*There are two options: the first is to enter text and it will be converted to voice. The second option is to enter the file name and the program will open the file and read it out loud.
 
 *Includes GUI application.
 
